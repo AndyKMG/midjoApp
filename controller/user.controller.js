@@ -1,4 +1,4 @@
-const { myColl } = require("../src/dbOperations");
+const { myColl } = require("../public/dbOperations");
 const jwt = require('jsonwebtoken');
 
 var msg = "Utilisateur Introuvable"

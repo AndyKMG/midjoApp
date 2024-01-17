@@ -35,9 +35,9 @@
     "web-vitals": "^2.1.4",
     "winston": "^3.10.0"
   },
-  "main": "src/app",
+  "main": "public/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node public/app.js",
     "dev": "nodemon express",
     "build": "react-scripts build",
     "test": "react-scripts test",
